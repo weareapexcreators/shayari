@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "shayari"
+version = "0.1.0"
+description = "Backend For Shayari App"
+authors = ["Abhinav Kumar <32016468+abhinavk454@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+uvicorn = "^0.23.2"
+motor = "^3.3.1"
+pydantic = "^2.4.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
